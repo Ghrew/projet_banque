@@ -85,24 +85,33 @@ appliqué sur la partie crédit du virement)
 
 
 Historique :
+
 ? L'ensemble des opérations effectuées (tous comptes compris) sur une journée doivent être renseignées
 sur un fichier. On pourrait comparer ce fichier à un fichier de log dans lequel on retrouve une trace de tout
 ce qui a été réalisé (ouvertures de comptes, dépots, retraits...) que ce soit des opérations valides ou en
 échec (en précisant la cause de l'échec)
+
 ? Vous devrez conserver un historique d'une semaine maximum
+
 ? Il n'est pas demandé de mettre en place une consultation du contenu de ce fichier (cette partie pouvant
 être réalisée en bonus)
 
 
 
 Administration:
+
 ? Prévoir une zone "cachée" dans votre programme qui devra être accessible après avoir saisi un mot de
 passe (il n'est pas demandé de mettre en place une gestion des utilisateurs, ce mot de passe peut tres bien
 etre stocké en dur dans votre code)
+
 ? Afficher la somme des montants de tous les comptes
+
 ? Afficher la somme des montants par type de compte
+
 ? Exporter l’ensemble des données de l’application
+
 ? Importer des données dans l’application (selon un format que vous définirez, il est fortement conseillé de
 se baser sur le format qui vous sert a exporter les données). Dans le cas où l’application contient déjà des
 données, les données importées devront fusionner avec les anciennes.
+
 ? Le mécanisme d'import/export doit se faire depuis votre application et non pas dans un logiciel tiers
